@@ -1,0 +1,465 @@
+# depslib dependency file v1.0
+1149861840 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\ardetectmarker.c
+	<stdio.h>
+	<AR/ar.h>
+
+1163787720 c:\users\marcio\documents\artoolkitcb\include\ar\ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1164025260 c:\users\marcio\documents\artoolkitcb\include\ar\config.h
+
+1122742860 c:\users\marcio\documents\artoolkitcb\include\ar\param.h
+	<AR/config.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\ardetectmarker2.c
+	<AR/ar.h>
+
+1159972560 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\argetcode.c
+	<stdio.h>
+	<math.h>
+	<AR/ar.h>
+	<AR/matrix.h>
+
+1156168080 c:\users\marcio\documents\artoolkitcb\include\ar\matrix.h
+	<math.h>
+	<AR/config.h>
+
+1148587680 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\argetmarkerinfo.c
+	<AR/ar.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\argettransmat.c
+	<stdlib.h>
+	<math.h>
+	<AR/ar.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\argettransmat2.c
+	<stdlib.h>
+	<math.h>
+	<AR/ar.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\argettransmat3.c
+	<stdlib.h>
+	<math.h>
+	<AR/ar.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\argettransmatcont.c
+	<AR/ar.h>
+
+1163788500 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\arlabeling.c
+	<stdlib.h>
+	<stdio.h>
+	<AR/ar.h>
+	<windows.h>
+	<string.h>
+
+1159458060 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\arutil.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<sys/timeb.h>
+	<windows.h>
+	<sys/time.h>
+	<AR/param.h>
+	<AR/matrix.h>
+	<AR/ar.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\malloc.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mallocdup.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mallocinv.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mallocmul.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\malloctrans.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mallocunit.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mdet.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mdisp.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mdup.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mfree.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\minv.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mmul.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mpca.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mselfinv.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\mtrans.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\munit.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\paramchangesize.c
+	<stdio.h>
+	<math.h>
+	<AR/param.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\paramdecomp.c
+	<stdio.h>
+	<math.h>
+	<AR/param.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\paramdisp.c
+	<stdio.h>
+	<stdarg.h>
+	<AR/param.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\paramdistortion.c
+	<stdio.h>
+	<math.h>
+	<AR/param.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\paramfile.c
+	<stdio.h>
+	<stdarg.h>
+	<AR/param.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\paramget.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+	<AR/param.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\valloc.c
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\vdisp.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\vfree.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\vhouse.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\vinnerp.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\users\marcio\documents\artoolkitcb\lib\src\ar\vtridiag.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1149861840 source:c:\mydocuments\artoolkitcb\lib\src\ar\ardetectmarker.c
+	<stdio.h>
+	<AR/ar.h>
+
+1163787720 c:\mydocuments\artoolkitcb\include\ar\ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1315317897 c:\mydocuments\artoolkitcb\include\ar\config.h
+
+1122742860 c:\mydocuments\artoolkitcb\include\ar\param.h
+	<AR/config.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\ardetectmarker2.c
+	<AR/ar.h>
+
+1159972560 source:c:\mydocuments\artoolkitcb\lib\src\ar\argetcode.c
+	<stdio.h>
+	<math.h>
+	<AR/ar.h>
+	<AR/matrix.h>
+
+1156168080 c:\mydocuments\artoolkitcb\include\ar\matrix.h
+	<math.h>
+	<AR/config.h>
+
+1148587680 source:c:\mydocuments\artoolkitcb\lib\src\ar\argetmarkerinfo.c
+	<AR/ar.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\argettransmat.c
+	<stdlib.h>
+	<math.h>
+	<AR/ar.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\argettransmat2.c
+	<stdlib.h>
+	<math.h>
+	<AR/ar.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\argettransmat3.c
+	<stdlib.h>
+	<math.h>
+	<AR/ar.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\argettransmatcont.c
+	<AR/ar.h>
+
+1163788500 source:c:\mydocuments\artoolkitcb\lib\src\ar\arlabeling.c
+	<stdlib.h>
+	<stdio.h>
+	<AR/ar.h>
+	<windows.h>
+	<string.h>
+
+1159458060 source:c:\mydocuments\artoolkitcb\lib\src\ar\arutil.c
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<sys/timeb.h>
+	<windows.h>
+	<sys/time.h>
+	<AR/param.h>
+	<AR/matrix.h>
+	<AR/ar.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\malloc.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mallocdup.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mallocinv.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mallocmul.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\malloctrans.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mallocunit.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mdet.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mdisp.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mdup.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mfree.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\minv.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mmul.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mpca.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mselfinv.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\mtrans.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\munit.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\paramchangesize.c
+	<stdio.h>
+	<math.h>
+	<AR/param.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\paramdecomp.c
+	<stdio.h>
+	<math.h>
+	<AR/param.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\paramdisp.c
+	<stdio.h>
+	<stdarg.h>
+	<AR/param.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\paramdistortion.c
+	<stdio.h>
+	<math.h>
+	<AR/param.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\paramfile.c
+	<stdio.h>
+	<stdarg.h>
+	<AR/param.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\paramget.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+	<AR/param.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\valloc.c
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\vdisp.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\vfree.c
+	<stdio.h>
+	<math.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\vhouse.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\vinnerp.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+
+1099612260 source:c:\mydocuments\artoolkitcb\lib\src\ar\vtridiag.c
+	<stdio.h>
+	<math.h>
+	<AR/matrix.h>
+

@@ -1,0 +1,557 @@
+# depslib dependency file v1.0
+1315311990 source:c:\users\marcio\documents\artoolkitcb\examples\simple\simpletest.c
+	<windows.h>
+	"video.h"
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/gl.h>
+	<GLUT/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+976684920 c:\users\marcio\documents\artoolkitcb\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1156168080 c:\users\marcio\documents\artoolkitcb\include\ar\gsub.h
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1164025260 c:\users\marcio\documents\artoolkitcb\include\ar\config.h
+
+1122742860 c:\users\marcio\documents\artoolkitcb\include\ar\param.h
+	<AR/config.h>
+
+1163787720 c:\users\marcio\documents\artoolkitcb\include\ar\ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1151699880 c:\users\marcio\documents\artoolkitcb\include\ar\video.h
+	<AR/config.h>
+	<AR/ar.h>
+	<AR/sys/videoWin32DirectShow.h>
+	<AR/sys/videoLinuxV4L.h>
+	<AR/sys/videoLinuxDV.h>
+	<AR/sys/videoLinux1394Cam.h>
+	<AR/sys/videoGStreamer.h>
+	<AR/sys/videoSGI.h>
+	<AR/sys/videoMacOSX.h>
+
+1148499180 c:\users\marcio\documents\artoolkitcb\include\ar\sys\videowin32directshow.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+
+1156168080 c:\users\marcio\documents\artoolkitcb\include\ar\sys\videolinuxv4l.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1156168080 c:\users\marcio\documents\artoolkitcb\include\ar\sys\videolinuxdv.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<libraw1394/raw1394.h>
+	<libdv/dv.h>
+
+1156168080 c:\users\marcio\documents\artoolkitcb\include\ar\sys\videolinux1394cam.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<libraw1394/raw1394.h>
+	<libdc1394/dc1394_control.h>
+
+1151730780 c:\users\marcio\documents\artoolkitcb\include\ar\sys\videogstreamer.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1156168080 c:\users\marcio\documents\artoolkitcb\include\ar\sys\videosgi.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1148393820 c:\users\marcio\documents\artoolkitcb\include\ar\sys\videomacosx.h
+
+1315276860 source:c:\users\marcio\documents\artoolkitcb\examples\simple\video.cpp
+	<stdio.h>
+	<stdlib.h>
+	"video.h"
+
+1315306018 c:\users\marcio\documents\artoolkitcb\examples\simple\video.h
+	"im_capture.h"
+
+1315312456 source:c:\users\marcio\documents\artoolkitcb\examples\simple\video.c
+	<stdio.h>
+	<stdlib.h>
+	"video.h"
+
+1089126410 c:\users\marcio\documents\artoolkitcb\include\im_capture.h
+
+1315328868 source:c:\mydocuments\artoolkitcb\examples\simple\video.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"video.h"
+
+1315306018 c:\mydocuments\artoolkitcb\examples\simple\video.h
+	"im_capture.h"
+
+1089126410 c:\mydocuments\artoolkitcb\include\im_capture.h
+
+1347885276 source:c:\mydocuments\artoolkitcb\examples\simple\simpletest.c
+	<windows.h>
+	<VideoIM.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/gl.h>
+	<GLUT/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+976684920 c:\mydocuments\artoolkitcb\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1156168080 c:\mydocuments\artoolkitcb\include\ar\gsub.h
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1315317897 c:\mydocuments\artoolkitcb\include\ar\config.h
+
+1122742860 c:\mydocuments\artoolkitcb\include\ar\param.h
+	<AR/config.h>
+
+1163787720 c:\mydocuments\artoolkitcb\include\ar\ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1151699880 c:\mydocuments\artoolkitcb\include\ar\video.h
+	<AR/config.h>
+	<AR/ar.h>
+	<AR/sys/videoWin32DirectShow.h>
+	<AR/sys/videoLinuxV4L.h>
+	<AR/sys/videoLinuxDV.h>
+	<AR/sys/videoLinux1394Cam.h>
+	<AR/sys/videoGStreamer.h>
+	<AR/sys/videoSGI.h>
+	<AR/sys/videoMacOSX.h>
+
+1148499180 c:\mydocuments\artoolkitcb\include\ar\sys\videowin32directshow.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+
+1156168080 c:\mydocuments\artoolkitcb\include\ar\sys\videolinuxv4l.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1156168080 c:\mydocuments\artoolkitcb\include\ar\sys\videolinuxdv.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<libraw1394/raw1394.h>
+	<libdv/dv.h>
+
+1156168080 c:\mydocuments\artoolkitcb\include\ar\sys\videolinux1394cam.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<libraw1394/raw1394.h>
+	<libdc1394/dc1394_control.h>
+
+1151730780 c:\mydocuments\artoolkitcb\include\ar\sys\videogstreamer.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1156168080 c:\mydocuments\artoolkitcb\include\ar\sys\videosgi.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1148393820 c:\mydocuments\artoolkitcb\include\ar\sys\videomacosx.h
+
+1315317154 source:c:\mydocuments\artoolkitcb\lib\src\gl\gsub.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/glext.h>
+	<GLUT/glut.h>
+	<OpenGL/glext.h>
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+	<AR/gsub.h>
+
+1315306018 c:\mydocuments\artoolkitcb\include\videoim.h
+	"im_capture.h"
+
+1347885278 source:d:\lixo\artoolkitcb\examples\simple\simpletest.c
+	<windows.h>
+	<VideoIM.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/gl.h>
+	<GLUT/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1315306018 d:\lixo\artoolkitcb\include\videoim.h
+	"im_capture.h"
+
+1089126410 d:\lixo\artoolkitcb\include\im_capture.h
+
+976684920 d:\lixo\artoolkitcb\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1156168080 d:\lixo\artoolkitcb\include\ar\gsub.h
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1315317898 d:\lixo\artoolkitcb\include\ar\config.h
+
+1122742860 d:\lixo\artoolkitcb\include\ar\param.h
+	<AR/config.h>
+
+1163787720 d:\lixo\artoolkitcb\include\ar\ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1151699880 d:\lixo\artoolkitcb\include\ar\video.h
+	<AR/config.h>
+	<AR/ar.h>
+	<AR/sys/videoWin32DirectShow.h>
+	<AR/sys/videoLinuxV4L.h>
+	<AR/sys/videoLinuxDV.h>
+	<AR/sys/videoLinux1394Cam.h>
+	<AR/sys/videoGStreamer.h>
+	<AR/sys/videoSGI.h>
+	<AR/sys/videoMacOSX.h>
+
+1148499180 d:\lixo\artoolkitcb\include\ar\sys\videowin32directshow.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+
+1156168080 d:\lixo\artoolkitcb\include\ar\sys\videolinuxv4l.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1156168080 d:\lixo\artoolkitcb\include\ar\sys\videolinuxdv.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<libraw1394/raw1394.h>
+	<libdv/dv.h>
+
+1156168080 d:\lixo\artoolkitcb\include\ar\sys\videolinux1394cam.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<libraw1394/raw1394.h>
+	<libdc1394/dc1394_control.h>
+
+1151730780 d:\lixo\artoolkitcb\include\ar\sys\videogstreamer.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1156168080 d:\lixo\artoolkitcb\include\ar\sys\videosgi.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1148393820 d:\lixo\artoolkitcb\include\ar\sys\videomacosx.h
+
+1462906580 source:c:\users\10033421\desktop\artoolkitcb\examples\simple\simpletest.c
+	<windows.h>
+	<VideoIM.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/gl.h>
+	<GLUT/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\videoim.h
+	"im_capture.h"
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\im_capture.h
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\gsub.h
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\config.h
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\param.h
+	<AR/config.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\video.h
+	<AR/config.h>
+	<AR/ar.h>
+	<AR/sys/videoWin32DirectShow.h>
+	<AR/sys/videoLinuxV4L.h>
+	<AR/sys/videoLinuxDV.h>
+	<AR/sys/videoLinux1394Cam.h>
+	<AR/sys/videoGStreamer.h>
+	<AR/sys/videoSGI.h>
+	<AR/sys/videoMacOSX.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\sys\videowin32directshow.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\sys\videolinuxv4l.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\sys\videolinuxdv.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<libraw1394/raw1394.h>
+	<libdv/dv.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\sys\videolinux1394cam.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<libraw1394/raw1394.h>
+	<libdc1394/dc1394_control.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\sys\videogstreamer.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\sys\videosgi.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\sys\videomacosx.h
+
+1462907338 source:c:\users\10033421\desktop\artoolkitcb\simpletest3.c
+	<windows.h>
+	<VideoIM.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/gl.h>
+	<GLUT/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1416477117 source:c:\users\10033421\desktop\artoolkitcb\examples\loadmultiple\loadmultiple.c
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<GL/glut.h>
+	<GLUT/glut.h>
+	<AR/gsub.h>
+	<AR/param.h>
+	<AR/ar.h>
+	<AR/video.h>
+	"object.h"
+
+1416477117 c:\users\10033421\desktop\artoolkitcb\examples\loadmultiple\object.h
+
+1416477117 source:c:\users\10033421\desktop\artoolkitcb\examples\loadmultiple\object.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<AR/ar.h>
+	"object.h"
+
+1416477117 source:c:\users\10033421\desktop\artoolkitcb\examples\multi\multitest.c
+	<windows.h>
+	<VideoIM.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/gl.h>
+	<GLUT/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+	<AR/arMulti.h>
+
+1416477118 c:\users\10033421\desktop\artoolkitcb\include\ar\armulti.h
+	<stdio.h>
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1462906580 source:h:\cg\realidadeaumentada\artoolkitcb\examples\simple\simpletest.c
+	<windows.h>
+	<VideoIM.h>
+	<stdio.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<OpenGL/gl.h>
+	<GLUT/glut.h>
+	<AR/gsub.h>
+	<AR/video.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\videoim.h
+	"im_capture.h"
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\im_capture.h
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\gsub.h
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\config.h
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\param.h
+	<AR/config.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\video.h
+	<AR/config.h>
+	<AR/ar.h>
+	<AR/sys/videoWin32DirectShow.h>
+	<AR/sys/videoLinuxV4L.h>
+	<AR/sys/videoLinuxDV.h>
+	<AR/sys/videoLinux1394Cam.h>
+	<AR/sys/videoGStreamer.h>
+	<AR/sys/videoSGI.h>
+	<AR/sys/videoMacOSX.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\sys\videowin32directshow.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\sys\videolinuxv4l.h
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<AR/config.h>
+	<AR/ar.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\sys\videolinuxdv.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdio.h>
+	<string.h>
+	<unistd.h>
+	<libraw1394/raw1394.h>
+	<libdv/dv.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\sys\videolinux1394cam.h
+	<AR/config.h>
+	<AR/ar.h>
+	<stdlib.h>
+	<linux/types.h>
+	<linux/videodev.h>
+	<libraw1394/raw1394.h>
+	<libdc1394/dc1394_control.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\sys\videogstreamer.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\sys\videosgi.h
+	<AR/config.h>
+	<AR/ar.h>
+
+1416477118 h:\cg\realidadeaumentada\artoolkitcb\include\ar\sys\videomacosx.h
+

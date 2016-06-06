@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1315330339 source:c:\mydocuments\artoolkitcb\lib\src\videoim\video.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"video.h"
+
+1315306018 c:\mydocuments\artoolkitcb\lib\src\videoim\video.h
+	"im_capture.h"
+
+1089126410 c:\mydocuments\artoolkitcb\include\im_capture.h
+

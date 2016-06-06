@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1315253508 source:c:\mydocuments\artoolkitcb\lib\src\gl\gsub.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/glext.h>
+	<GLUT/glut.h>
+	<OpenGL/glext.h>
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+	<AR/gsub.h>
+
+976684920 c:\mydocuments\artoolkitcb\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1164025260 c:\mydocuments\artoolkitcb\include\ar\config.h
+
+1122742860 c:\mydocuments\artoolkitcb\include\ar\param.h
+	<AR/config.h>
+
+1163787720 c:\mydocuments\artoolkitcb\include\ar\ar.h
+	<stdio.h>
+	<malloc.h>
+	<stdlib.h>
+	<AR/config.h>
+	<AR/param.h>
+
+1156168080 c:\mydocuments\artoolkitcb\include\ar\gsub.h
+	<AR/config.h>
+	<AR/param.h>
+	<AR/ar.h>
+
