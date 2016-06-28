@@ -41,9 +41,11 @@ static void   keyEvent( unsigned char key, int x, int y);
 static void   mainLoop(void);
 static void   draw( double trans1[3][4], double trans2[3][4], int mode );
 
+int mostraFantasmas;
 
 int main(int argc, char **argv)
 {
+    mostraFantasmas = 0;
 	glutInit(&argc, argv);
     init();
 
@@ -83,6 +85,52 @@ static void   keyEvent( unsigned char key, int x, int y)
         count = 0;
     }
 
+        /* turn on and off the debug mode with right mouse */
+    if( key == 'f' ) {
+        if (mostraFantasmas == 0) mostraFantasmas = 1;
+        else mostraFantasmas = 0;
+        printf("*** Alterado modo fantasma: %b", mostraFantasmas);
+    }
+
+}
+
+void matrixcopy (void * destmat, void * srcmat)
+{
+  memcpy(destmat,srcmat, 3*4*sizeof(double));
+}
+
+void desenhaFantasmasSemTag()
+{
+    int i = 0;
+    for (; i < (config->marker_num); i++)
+    {
+        if (config->marker[i].visible >= 0)
+        {
+            double predio1[3][4], predio2[3][4], predio3[3][4];
+
+            glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE);
+            matrixcopy(predio1, config->marker[0].trans);
+            matrixcopy(predio2, config->marker[0].trans);
+            matrixcopy(predio3, config->marker[0].trans);
+
+            predio1[0][3] = -40;//muda X
+            predio1[1][3] = -67;//muda Y
+
+            predio2[0][3] = 90; //muda X
+            predio2[1][3] = -125; //muda Y
+
+            predio3[0][3] = 225; //muda X
+            predio3[1][3] = 0; //muda
+
+            glScalef(1.0,1.0,5.0);
+            draw( config->trans, predio1, 2 );
+            draw( config->trans, predio2, 2 );
+            draw( config->trans, predio3, 2 );
+            glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
+
+            break;
+        }
+    }
 }
 
 /* main loop */
@@ -147,12 +195,31 @@ static void mainLoop(void)
 */
     argDrawMode3D();
     argDraw3dCamera( 0, 0 );
-    glClearDepth( 1.0 );
+    glClearDepth( 1.0 );            glScalef(1.0,1.0,5.0);
     glClear(GL_DEPTH_BUFFER_BIT);
-    for( i = 0; i < config->marker_num; i++ ) {
+
+    //PRINT DOS PREDIOS FANTASMAS (COM E SEM MARCADORES)
+    if (mostraFantasmas == 1)
+    {
+        desenhaFantasmasSemTag();
+
+        //Desenha predios fantasmas com marcadores identificados
+        for(i = (config->marker_num) - 3; i < config->marker_num; i++ ) {
+            if( config->marker[i].visible >= 0 )
+            {
+                glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE);
+                draw( config->trans, config->marker[i].trans, 2 );
+                glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
+            }
+        }
+
+    }
+
+    for (i = 0; i < (config->marker_num) - 3; i++ ) {
         if( config->marker[i].visible >= 0 ) draw( config->trans, config->marker[i].trans, 0 );
         else                                 draw( config->trans, config->marker[i].trans, 1 );
     }
+
     argSwapBuffers();
 }
 
@@ -182,7 +249,7 @@ static void init( void )
     }
 
     /* open the graphics window */
-    argInit( &cparam, 1.0, 0, 2, 1, 0 );
+    argInit( &cparam, 1.0, 0, 0, 0, 0 );
     arFittingMode   = AR_FITTING_TO_IDEAL;
     arImageProcMode = AR_IMAGE_PROC_IN_HALF;
     argDrawMode     = AR_DRAW_BY_TEXTURE_MAPPING;
@@ -244,6 +311,7 @@ static void draw( double trans1[3][4], double trans2[3][4], int mode )
     }
     glMatrixMode(GL_MODELVIEW);
     glTranslatef( 0.0, 0.0, 25.0 );
+    if (mode == 2) glScalef(1.0,1.0,5);
     if( !arDebug ) glutSolidCube(50.0);
      else          glutWireCube(50.0);
     glDisable( GL_LIGHTING );
