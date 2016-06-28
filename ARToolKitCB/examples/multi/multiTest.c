@@ -26,6 +26,9 @@ char			*vconf = "";
 #endif
 
 int             xsize, ysize;
+int             posCarro1 = 21;
+int             posCarro2 = 390;
+int             anda = 0;
 int             thresh = 100;
 int             count = 0;
 
@@ -133,6 +136,42 @@ void desenhaFantasmasSemTag()
     }
 }
 
+void desenhaCarros()
+{
+    int i = 0;
+    for (; i < (config->marker_num); i++)
+    {
+        if (config->marker[i].visible >= 0)
+        {
+            double carro1[3][4], carro2[3][4];
+            matrixcopy(carro1, config->marker[0].trans);
+            matrixcopy(carro2, config->marker[3].trans);
+
+            carro1[0][3] = posCarro1;//muda X
+            carro1[1][3] = -55;//muda Y
+            carro2[0][3] = posCarro2;//muda X
+            carro2[1][3] = -75;//muda Y
+
+            draw( config->trans, carro1, 3 );
+            draw( config->trans, carro2, 3 );
+
+            if(anda == 0){
+                posCarro1++;
+                posCarro2--;
+            }else{
+                posCarro1--;
+                posCarro2++;
+            }
+            if(posCarro1 == 405){
+                anda = 1;
+            }else if(posCarro1 == 20){
+                anda = 0;
+            }
+            break;
+        }
+    }
+}
+
 /* main loop */
 static void mainLoop(void)
 {
@@ -203,17 +242,26 @@ static void mainLoop(void)
     {
         desenhaFantasmasSemTag();
 
+
         //Desenha predios fantasmas com marcadores identificados
+        glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE);
         for(i = (config->marker_num) - 3; i < config->marker_num; i++ ) {
             if( config->marker[i].visible >= 0 )
             {
-                glColorMask(GL_FALSE, GL_FALSE, GL_FALSE, GL_FALSE);
-                draw( config->trans, config->marker[i].trans, 2 );
-                glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
+                glScalef(1.0,1.0,2.0);
+                draw( config->trans, config->marker[i].trans, 0 );
+                glScalef(1.0,1.0,0.5);
+            }else{
+                glScalef(1.0,1.0,2.0);
+                draw( config->trans, config->marker[i].trans, 1 );
+                glScalef(1.0,1.0,0.5);
             }
         }
+        glColorMask(GL_TRUE, GL_TRUE, GL_TRUE, GL_TRUE);
 
     }
+
+    desenhaCarros();
 
     for (i = 0; i < (config->marker_num) - 3; i++ ) {
         if( config->marker[i].visible >= 0 ) draw( config->trans, config->marker[i].trans, 0 );
@@ -269,8 +317,10 @@ static void draw( double trans1[3][4], double trans2[3][4], int mode )
     double    gl_para[16];
     GLfloat   mat_ambient[]     = {0.0, 0.0, 1.0, 1.0};
     GLfloat   mat_ambient1[]    = {1.0, 0.0, 0.0, 1.0};
+    GLfloat   mat_ambient2[]    = {0.0, 1.0, 1.0, 1.0};
     GLfloat   mat_flash[]       = {0.0, 0.0, 1.0, 1.0};
     GLfloat   mat_flash1[]      = {1.0, 0.0, 0.0, 1.0};
+    GLfloat   mat_flash2[]      = {0.0, 1.0, 1.0, 1.0};
     GLfloat   mat_flash_shiny[] = {50.0};
     GLfloat   mat_flash_shiny1[]= {50.0};
     GLfloat   light_position[]  = {100.0,-200.0,200.0,0.0};
@@ -298,8 +348,17 @@ static void draw( double trans1[3][4], double trans2[3][4], int mode )
         glMaterialfv(GL_FRONT, GL_SPECULAR, mat_flash);
         glMaterialfv(GL_FRONT, GL_SHININESS, mat_flash_shiny);
         glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient);
+    }else if(mode == 3){
+        glEnable(GL_LIGHTING);
+        glEnable(GL_LIGHT0);
+        glLightfv(GL_LIGHT0, GL_POSITION, light_position);
+        glLightfv(GL_LIGHT0, GL_AMBIENT, ambi);
+        glLightfv(GL_LIGHT0, GL_DIFFUSE, lightZeroColor);
+        glMaterialfv(GL_FRONT, GL_SPECULAR, mat_flash2);
+        glMaterialfv(GL_FRONT, GL_SHININESS, mat_flash_shiny1);
+        glMaterialfv(GL_FRONT, GL_AMBIENT, mat_ambient2);
     }
-    else {
+    else{
         glEnable(GL_LIGHTING);
         glEnable(GL_LIGHT0);
         glLightfv(GL_LIGHT0, GL_POSITION, light_position);
@@ -312,6 +371,7 @@ static void draw( double trans1[3][4], double trans2[3][4], int mode )
     glMatrixMode(GL_MODELVIEW);
     glTranslatef( 0.0, 0.0, 25.0 );
     if (mode == 2) glScalef(1.0,1.0,5);
+    if (mode == 3) glScalef(1.0,0.3,0.5);
     if( !arDebug ) glutSolidCube(50.0);
      else          glutWireCube(50.0);
     glDisable( GL_LIGHTING );
